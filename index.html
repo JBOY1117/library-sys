@@ -1,0 +1,359 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jerome Geraldo's Library — Immerse yourself in original horror, adventure, action, and mystery stories." />
+  <title>Codest's Library — Stories & Books</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="top-navbar" aria-label="Main navigation">
+      <div class="nav-inner-wrapper">
+        <a href="index.html" class="nav-logo-link">
+          <span class="nav-icon">📚</span>
+          <div>
+            <div class="nav-site-title">Geraldo's Library</div>
+            <div class="nav-subtitle">Original Stories & Books</div>
+          </div>
+        </a>
+        <ul class="nav-menu-list">
+          <li><a href="#library">Library</a></li>
+          <li><a href="#featured">Featured</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== HERO = -->
+  <section class="hero" aria-label="Hero section">
+    <div class="hero-background"></div>
+    <div class="floating-particles" id="particles" aria-hidden="true"></div>
+    <div class="hero-text-content">
+      <div class="hero-top-badge">✦ Original Works by Jerome Geraldo</div>
+      <h1 class="hero-main-title">
+        Step Into a<br /><span>World of Stories</span>
+      </h1>
+      <p class="hero-description">
+        Horror, Adventure, Action, Mystery, Sci-Fi, Romance, Fantasy, Thriller, and the dusty trails of the West. Nine worlds. One author.
+      </p>
+      <a href="#library" class="hero-call-to-action">
+        Browse the Library <span>→</span>
+      </a>
+      <div class="hero-stats-row">
+        <div>
+          <div class="stat-number">9</div>
+          <div class="stat-label">Genres</div>
+        </div>
+        <div class="stat-divider-line" aria-hidden="true"></div>
+        <div>
+          <div class="stat-number">9</div>
+          <div class="stat-label">Stories</div>
+        </div>
+        <div class="stat-divider-line" aria-hidden="true"></div>
+        <div>
+          <div class="stat-number">1</div>
+          <div class="stat-label">Author</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED ===== -->
+  <section class="featured-strip" id="featured" aria-label="Featured story">
+    <div class="page-container">
+      <div class="featured-content-wrapper">
+        <div class="featured-text-side">
+          <p class="featured-editor-label">✦ Editor's Pick</p>
+          <h2 class="featured-story-title">The Last Candle</h2>
+          <p class="featured-story-excerpt">
+            "On the night of the last candle, Mara understood that some doors, once opened, cannot be shut again..." A devastating tale of grief, obsession, and the darkness that answers when you call out to the dead.
+          </p>
+          <div class="featured-details-row">
+            <div class="featured-detail-item">📖 <strong>Horror</strong></div>
+            <div class="featured-detail-item">🕐 <strong>~7 min read</strong></div>
+            <div class="featured-detail-item">✍️ <strong>Jerome Geraldo</strong></div>
+          </div>
+          <a href="assets/the-last-candle.html" class="featured-read-button">Read Now →</a>
+        </div>
+        <div class="featured-book-visual" aria-hidden="true">
+          <div class="featured-book-cover">
+            <div class="featured-book-icon">🕯️</div>
+            <div class="featured-book-title">The Last Candle</div>
+            <div class="featured-book-author">— Jerome Geraldo</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LIBRARY ===== -->
+  <section class="content-section" id="library" aria-label="Library collection">
+    <div class="page-container">
+      <div class="section-heading">
+        <span class="section-small-label">✦ The Collection</span>
+        <h2 class="section-main-title">All Stories & Books</h2>
+        <div class="section-underline"></div>
+      </div>
+
+      <!-- Filters -->
+      <div class="filters" role="group" aria-label="Filter by genre">
+        <button class="filter-button active" data-filter="all">All Genres</button>
+        <button class="filter-button horror" data-filter="horror">🩸 Horror</button>
+        <button class="filter-button adventure" data-filter="adventure">🗺️ Adventure</button>
+        <button class="filter-button action" data-filter="action">⚡ Action</button>
+        <button class="filter-button mystery" data-filter="mystery">🔍 Mystery</button>
+        <button class="filter-button scifi" data-filter="scifi">🚀 Sci-Fi</button>
+        <button class="filter-button romance" data-filter="romance">💌 Romance</button>
+        <button class="filter-button fantasy" data-filter="fantasy">🧙 Fantasy</button>
+        <button class="filter-button thriller" data-filter="thriller">🔪 Thriller</button>
+        <button class="filter-button western" data-filter="western">🤠 Western</button>
+      </div>
+
+      <!-- Books Grid -->
+      <div class="books-grid" id="books-grid">
+
+        <!-- Card 1: Horror -->
+        <a href="assets/the-last-candle.html" class="book-card horror-theme scroll-fade-in" data-genre="horror" aria-label="Read The Last Candle">
+          <div class="book-cover-area">
+            <span class="book-genre-label">Horror</span>
+            <span class="book-cover-icon">🕯️</span>
+            <span class="book-reading-time">⏱ ~7 min</span>
+          </div>
+          <div class="book-info-area">
+            <h3 class="book-title">The Last Candle</h3>
+            <p class="book-description">Mara lights a candle for each soul she has lost. But on the night of the seventh flame, something in the dark answers — and the dead do not return the way we remember them.</p>
+            <div class="book-card-bottom">
+              <div class="book-author-name">By <span>Jerome Geraldo</span></div>
+              <div class="book-read-arrow" aria-hidden="true">→</div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Card 2: Adventure -->
+        <a href="assets/beyond-the-ember-peaks.html" class="book-card adventure-theme scroll-fade-in" data-genre="adventure" aria-label="Read Beyond the Ember Peaks">
+          <div class="book-cover-area">
+            <span class="book-genre-label">Adventure</span>
+            <span class="book-cover-icon">🏔️</span>
+            <span class="book-reading-time">⏱ ~8 min</span>
+          </div>
+          <div class="book-info-area">
+            <h3 class="book-title">Beyond the Ember Peaks</h3>
+            <p class="book-description">Kael has crossed three rivers, two deserts, and the bones of a dead god to reach the Ember Peaks — but what waits on the other side is not treasure. It is a choice that could unmake the world.</p>
+            <div class="book-card-bottom">
+              <div class="book-author-name">By <span>Jerome Geraldo</span></div>
+              <div class="book-read-arrow" aria-hidden="true">→</div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Card 3: Action -->
+        <a href="assets/blood-and-chrome.html" class="book-card action-theme scroll-fade-in" data-genre="action" aria-label="Read Blood and Chrome">
+          <div class="book-cover-area">
+            <span class="book-genre-label">Action</span>
+            <span class="book-cover-icon">🔫</span>
+            <span class="book-reading-time">⏱ ~8 min</span>
+          </div>
+          <div class="book-info-area">
+            <h3 class="book-title">Blood and Chrome</h3>
+            <p class="book-description">In a city ruled by corporate warlords and mercenary law, ex-soldier Dara Voss has one hour to extract the city's most dangerous prisoner before the building goes dark — permanently.</p>
+            <div class="book-card-bottom">
+              <div class="book-author-name">By <span>Jerome Geraldo</span></div>
+              <div class="book-read-arrow" aria-hidden="true">→</div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Card 4: Mystery -->
+        <a href="assets/the-vanishing-of-room-9.html" class="book-card mystery-theme scroll-fade-in" data-genre="mystery" aria-label="Read The Vanishing of Room 9">
+          <div class="book-cover-area">
+            <span class="book-genre-label">Mystery</span>
+            <span class="book-cover-icon">🔍</span>
+            <span class="book-reading-time">⏱ ~7 min</span>
+          </div>
+          <div class="book-info-area">
+            <h3 class="book-title">The Vanishing of Room 9</h3>
+            <p class="book-description">Detective Lena Marsh is called to the Ashford Grand Hotel, where a guest has disappeared from a room that, according to the hotel's records, does not exist. Every clue leads nowhere. Except one.</p>
+            <div class="book-card-bottom">
+              <div class="book-author-name">By <span>Jerome Geraldo</span></div>
+              <div class="book-read-arrow" aria-hidden="true">→</div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Card 5: Sci-Fi -->
+        <a href="assets/signal-at-the-edge.html" class="book-card scifi-theme scroll-fade-in" data-genre="scifi" aria-label="Read Signal at the Edge of Nothing">
+          <div class="book-cover-area">
+            <span class="book-genre-label">Sci-Fi</span>
+            <span class="book-cover-icon">🚀</span>
+            <span class="book-reading-time">⏱ ~8 min</span>
+          </div>
+          <div class="book-info-area">
+            <h3 class="book-title">Signal at the Edge of Nothing</h3>
+            <p class="book-description">Deep-space comms officer Ryn Alder intercepts a signal that should be impossible — it originated from a probe destroyed eleven years ago. And it is addressed, specifically, to her.</p>
+            <div class="book-card-bottom">
+              <div class="book-author-name">By <span>Jerome Geraldo</span></div>
+              <div class="book-read-arrow" aria-hidden="true">→</div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Card 6: Romance -->
+        <a href="assets/the-sunday-letters.html" class="book-card romance-theme scroll-fade-in" data-genre="romance" aria-label="Read The Sunday Letters">
+          <div class="book-cover-area">
+            <span class="book-genre-label">Romance</span>
+            <span class="book-cover-icon">💌</span>
+            <span class="book-reading-time">⏱ ~7 min</span>
+          </div>
+          <div class="book-info-area">
+            <h3 class="book-title">The Sunday Letters</h3>
+            <p class="book-description">For three years, Cleo has been receiving letters she almost threw away — unsigned, beautifully written, left under the door of the wrong apartment. On the day she decides to stop, the writer finally knocks.</p>
+            <div class="book-card-bottom">
+              <div class="book-author-name">By <span>Jerome Geraldo</span></div>
+              <div class="book-read-arrow" aria-hidden="true">→</div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Card 7: Fantasy -->
+        <a href="assets/the-court-of-ash-and-ivory.html" class="book-card fantasy-theme scroll-fade-in" data-genre="fantasy" aria-label="Read The Court of Ash and Ivory">
+          <div class="book-cover-area">
+            <span class="book-genre-label">Fantasy</span>
+            <span class="book-cover-icon">🧙</span>
+            <span class="book-reading-time">⏱ ~8 min</span>
+          </div>
+          <div class="book-info-area">
+            <h3 class="book-title">The Court of Ash and Ivory</h3>
+            <p class="book-description">Sera has served the Ivory Court her entire life. On the night the Court burns, she discovers the fire was set by the same queen she swore to protect — and in her hands is the only proof that matters.</p>
+            <div class="book-card-bottom">
+              <div class="book-author-name">By <span>Jerome Geraldo</span></div>
+              <div class="book-read-arrow" aria-hidden="true">→</div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Card 8: Thriller -->
+        <a href="assets/forty-eight-hours.html" class="book-card thriller-theme scroll-fade-in" data-genre="thriller" aria-label="Read Forty-Eight Hours">
+          <div class="book-cover-area">
+            <span class="book-genre-label">Thriller</span>
+            <span class="book-cover-icon">🔪</span>
+            <span class="book-reading-time">⏱ ~8 min</span>
+          </div>
+          <div class="book-info-area">
+            <h3 class="book-title">Forty-Eight Hours</h3>
+            <p class="book-description">Journalist Priya Nair receives a USB drive from an anonymous source at 6 a.m. By 6 p.m. the source is dead. The drive contains evidence that could bring down three governments — and someone knows she has it.</p>
+            <div class="book-card-bottom">
+              <div class="book-author-name">By <span>Jerome Geraldo</span></div>
+              <div class="book-read-arrow" aria-hidden="true">→</div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Card 9: Western -->
+        <a href="assets/dust-and-due.html" class="book-card western-theme scroll-fade-in" data-genre="western" aria-label="Read Dust and Due">
+          <div class="book-cover-area">
+            <span class="book-genre-label">Western</span>
+            <span class="book-cover-icon">🤠</span>
+            <span class="book-reading-time">⏱ ~7 min</span>
+          </div>
+          <div class="book-info-area">
+            <h3 class="book-title">Dust and Due</h3>
+            <p class="book-description">Marshal Elsa Cole rides into the ghost town of Calloway to collect a debt. What she finds instead is a town that has been held at gunpoint for eleven days by a man who claims he is already dead — and proves it.</p>
+            <div class="book-card-bottom">
+              <div class="book-author-name">By <span>Jerome Geraldo</span></div>
+              <div class="book-read-arrow" aria-hidden="true">→</div>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="content-section" id="about" style="background: var(--bg-surface); border-top: 1px solid var(--border);">
+    <div class="page-container" style="max-width: 680px; text-align: center;">
+      <span class="section-small-label">✦ The Author</span>
+      <h2 class="section-main-title" style="margin-bottom: 20px;">Jerome Geraldo</h2>
+      <div class="section-underline" style="margin-bottom: 32px;"></div>
+      <div style="width: 90px; height: 90px; border-radius: 50%; background: linear-gradient(135deg, var(--gold-dim), var(--gold)); display: flex; align-items: center; justify-content: center; font-size: 2.5rem; margin: 0 auto 24px; box-shadow: 0 0 30px rgba(201,168,76,0.25);">✍️</div>
+      <p style="font-family: 'Lora', serif; font-style: italic; color: var(--cream-dim); font-size: 1.05rem; line-height: 1.8; margin-bottom: 18px;">
+        Jerome Geraldo is the author of all the works presented in this library. A storyteller at heart, he weaves worlds across genres — from the slow dread of gothic horror to the pulse of high-octane action.
+      </p>
+      <p style="font-size: 0.9rem; color: var(--cream-dim);">
+        Every story is original. Every character is crafted with care. Every page is an invitation to feel something true.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-logo">📚 Geraldo's Library</div>
+    <p class="footer-tagline">"Every story is a door. Step through."</p>
+    <ul class="footer-link-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#library">Library</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="assets/the-last-candle.html">Horror</a></li>
+      <li><a href="assets/beyond-the-ember-peaks.html">Adventure</a></li>
+      <li><a href="assets/blood-and-chrome.html">Action</a></li>
+      <li><a href="assets/the-vanishing-of-room-9.html">Mystery</a></li>
+      <li><a href="assets/signal-at-the-edge.html">Sci-Fi</a></li>
+      <li><a href="assets/the-sunday-letters.html">Romance</a></li>
+      <li><a href="assets/the-court-of-ash-and-ivory.html">Fantasy</a></li>
+      <li><a href="assets/forty-eight-hours.html">Thriller</a></li>
+      <li><a href="assets/dust-and-due.html">Western</a></li>
+    </ul>
+    <div class="footer-divider-line"></div>
+    <p class="footer-copyright">© 2026 Jerome Geraldo. All stories and works are original and belong to the author.</p>
+  </footer>
+
+  <script>
+    // Particle generator
+    (function() {
+      const container = document.getElementById('particles');
+      const count = 28;
+      for (let i = 0; i < count; i++) {
+        const p = document.createElement('div');
+        p.className = 'single-particle';
+        p.style.left = Math.random() * 100 + '%';
+        p.style.animationDuration = (8 + Math.random() * 14) + 's';
+        p.style.animationDelay = (Math.random() * 10) + 's';
+        p.style.width = p.style.height = (1 + Math.random() * 2.5) + 'px';
+        p.style.opacity = (0.2 + Math.random() * 0.5).toString();
+        container.appendChild(p);
+      }
+    })();
+
+    // Genre filter
+    const filterBtns = document.querySelectorAll('.filter-button');
+    const cards = document.querySelectorAll('.book-card');
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const genre = btn.dataset.filter;
+        cards.forEach(card => {
+          if (genre === 'all' || card.dataset.genre === genre) {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Scroll scroll-fade-in
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.scroll-fade-in').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
